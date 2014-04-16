@@ -1,4 +1,5 @@
- <div id="main-nav" class="navbar navbar-fixed-top">
+    <nav>
+    <div id="main-nav" class="navbar navbar-fixed-top">
         <!--
         <div class="nav-buttons">
           <button class="btn">Now</button>
@@ -27,3 +28,4 @@
           </div><!--End navbar-collapse -->
         </div><!--End container -->
       </div><!--End main-nav -->
+      </nav>

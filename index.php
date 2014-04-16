@@ -15,7 +15,7 @@ commonHeaders();
 
   </head>
   <body class="home">
-    <?php include_once(dirname(__FILE__) . '/bits/navbar_top.php');?>
+<?php include_once(dirname(__FILE__) . '/bits/navbar_top.php');?>
 
     <section>
       <div id="home">
@@ -128,6 +128,15 @@ commonHeaders();
           </form>
           
           <div style="clear: both;"></div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <h4>Thank you.</h4>
+        <div class="social-icon-list">
+          <span class="fui-facebook"></span>
+          <span class="fui-twitter"></span>
+          <span class="fui-googleplus"></span>
         </div>
       </div>
 
