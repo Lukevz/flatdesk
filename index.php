@@ -116,6 +116,19 @@ commonHeaders();
          <div class="section-header">
           <span>Request A FlatDesk</span>
         </div>
+        <div id="contact-area">
+          <form method="post" action="contactengine.php">
+            <input type="text" name="Name" id="Name" placeholder="name" />
+
+            <input type="text" name="Email" id="Email" placeholder="email" />
+      
+            <textarea name="Message" rows="20" cols="20" id="Message" placeholder="message"></textarea>
+
+            <input type="submit" name="submit" value="Submit" class="submit-button" />
+          </form>
+          
+          <div style="clear: both;"></div>
+        </div>
       </div>
 
     </section>

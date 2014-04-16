@@ -255,8 +255,79 @@ body {
     background-color: #16a085;
   }
   
+  #contact-area {
+    width: 900px;
+    margin-top: 25px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  #contact-area input, #contact-area textarea {
+    padding: 5px;
+    width: 900px;
+    font-size: 40px;
+    margin: 0px 0px 10px 0px;
+    background-color: #34495e;
+    border: 0px;
+    height: 95px;
+  }
 
+  #contact-area textarea {
+    height: 250px;
+  }
+
+  #contact-area input.submit-button {
+    width: 900px;
+    height: 95px;
+    color: #ECF0F1;
+    font-family: OstrichSans-Medium;
+  }
+
+  label {
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 100px;
+    padding-top: 5px;
+    font-size: 40px;
+  }
+
+  input {
+    color: #ECF0F1;
+    font-family: OstrichSans-Medium;
+  }
+
+  textarea {
+    color: #ECF0F1;
+    font-family: OstrichSans-Medium;
+  }
+
+  ::-webkit-input-placeholder {
+   font-family: OstrichSans-Medium;
+   font-size: 40px;
+   color: #ECF0F1;
+   padding-top: 5px;
+   padding-left: 3px;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+    font-family: OstrichSans-Medium;
+    font-size: 40px;
+    color: #ECF0F1; 
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+    font-family: OstrichSans-Medium;
+    font-size: 40px;
+    color: #ECF0F1; 
+  }
+
+  :-ms-input-placeholder {  
+    font-family: OstrichSans-Medium;
+    font-size: 40px;
+    color: #ECF0F1;  
+  }
 
 
 /* ===============================
