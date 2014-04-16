@@ -14,44 +14,14 @@
           <!-- MAIN NAV -->
           <div id="site-nav" class="navbar-collapse collapse ">
             <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
-                <a href="index.php" class="dropdown-toggle scrollto">Home</a>
-                <ul class="dropdown-menu" id="menu1">
-                  <li><a href="mission.php">Mission</a></li>
-                  <li><a href="team.php">Team</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="expert-oncue.php" class="dropdown-toggle scrollto">Projects</a>
-                <ul class="dropdown-menu" id="menu1">
-                  <li><a href="events-details.php">One Day Atlanta</a></li>
-                  <li><a href="events-details.php">One Day Denver</a></li>
-                  <li><a href="events-details.php">West Coast</a></li>
-                  <li><a href="events-details.php">Dallas</a></li>
-                  <li><a href="events-details.php">Atlanta</a></li>
-                  <li><a href="events-details.php">Europe</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="resources.php" class="dropdown-toggle scrollto">Resources</a>
-                <ul class="dropdown-menu" id="menu1">
-                  <li><a href="#">Podcasts</a></li>
-                  <li><a href="#">Video</a></li>
-                  <li><a href="#">Audio</a></li>
-                  <li><a href="#">Ebooks</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle scrollto">Store</a>
-                <ul class="dropdown-menu" id="menu1">
-                  <li><a href="#">All</a></li>
-                  <li><a href="#">Books</a></li>
-                  <li><a href="#">Teaching</a></li>
-                  <li><a href="#">Kits</a></li>
-                </ul>
+              <li>
+                <a href="index.php#home" class="scrollto">Welcome</a>
               </li>
               <li>
-                <a href="blog.php" class="scrollto">Blog</a>
+                <a href="index.php#projects" class="scrollto">Projects</a>
+              </li>
+              <li>
+                <a href="index.php#contact" class="scrollto">Contact</a>
               </li>
             </ul>
           </div><!--End navbar-collapse -->

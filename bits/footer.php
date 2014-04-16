@@ -61,8 +61,7 @@
       });
     </script>
 
-    <script type="text/javascript" src="//use.typekit.net/sui2sya.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+    
    </body>
 </html>
